@@ -1,0 +1,141 @@
+aid: sonicwall
+name: SonicWall
+description: >-
+  SonicWall is a Milpitas, California cybersecurity company that has been
+  defending small and medium-sized businesses, enterprises, and managed
+  service providers from cyber crime for more than 25 years. The company
+  builds network security firewalls, secure access service edge (SASE)
+  offerings, cloud email security, endpoint protection, and managed
+  detection and response services. The SonicOS operating system that runs
+  on TZ, NSa, NSsp, and NSv next-generation firewalls exposes an on-device
+  REST API (SonicOS API) for configuration, monitoring, and policy
+  management, but SonicWall does not publish a centralized OpenAPI
+  specification — API documentation is shipped per SonicOS release as
+  HTML and PDF reference manuals at sonicwall.com/support. SonicWall
+  additionally operates the Capture Advanced Threat Protection (Capture
+  ATP) cloud sandbox API and the Cloud Secure Edge (CSE) management
+  surface, with reference SDKs in Node.js, Python, and PHP published in
+  the github.com/sonicwall organization. The company also publishes
+  CloudFormation and Azure Resource Manager templates for deploying NSv
+  virtual firewalls. SonicWall's revenue model is firewall hardware
+  sales, security service subscriptions, cloud security subscriptions,
+  and managed services — there is no public consumer developer program
+  or self-service signup for the firewall APIs (the SonicOS API is
+  accessed against the customer's own firewall device).
+type: Index
+position: Provider
+access: 3rd-Party
+image: https://kinlane-productions.s3.amazonaws.com/apis-json/apis-json-logo.jpg
+tags:
+  - Cybersecurity
+  - Network Security
+  - Firewall
+  - Next-Generation Firewall
+  - Intrusion Prevention
+  - VPN
+  - SD-WAN
+  - SASE
+  - Cloud Secure Edge
+  - Zero Trust
+  - Endpoint Security
+  - Email Security
+  - Cloud Email Security
+  - Managed Detection and Response
+  - MSSP
+  - Sandbox
+  - Capture ATP
+  - SonicOS
+  - SMB
+url: https://raw.githubusercontent.com/api-evangelist/sonicwall/refs/heads/main/apis.yml
+created: '2026-05-25'
+modified: '2026-05-25'
+specificationVersion: '0.20'
+apis: []
+common:
+  - type: Website
+    url: https://www.sonicwall.com
+  - type: Portal
+    url: https://www.sonicwall.com/products
+  - type: Documentation
+    url: https://www.sonicwall.com/support/technical-documentation
+  - type: Documentation
+    name: SonicOS API Reference
+    url: https://www.sonicwall.com/support/technical-documentation/sonicwall-sonicos-api
+  - type: Documentation
+    name: Capture ATP
+    url: https://www.sonicwall.com/products/firewalls/security-services/capture-advanced-threat-protection
+  - type: Documentation
+    name: Cloud Secure Edge
+    url: https://www.sonicwall.com/products/cloud-secure-edge
+  - type: Documentation
+    name: NSv Virtual Firewalls
+    url: https://www.sonicwall.com/products/firewalls/virtual
+  - type: Product
+    name: TZ Series Firewalls
+    url: https://www.sonicwall.com/products/firewalls/entry-level
+  - type: Product
+    name: NSa Series Firewalls
+    url: https://www.sonicwall.com/products/firewalls/mid-range
+  - type: Product
+    name: NSsp Series Firewalls
+    url: https://www.sonicwall.com/products/firewalls/high-end
+  - type: Support
+    url: https://www.sonicwall.com/support
+  - type: Community
+    url: https://community.sonicwall.com/
+  - type: SignUp
+    name: MySonicWall Account
+    url: https://www.mysonicwall.com/
+  - type: StatusPage
+    url: https://status.sonicwall.com/
+  - type: SecurityAdvisory
+    name: PSIRT
+    url: https://psirt.global.sonicwall.com/
+  - type: Blog
+    url: https://blog.sonicwall.com/en-us/
+  - type: ThreatIntelligence
+    name: SonicWall Capture Labs
+    url: https://securitynews.sonicwall.com/
+  - type: PrivacyPolicy
+    url: https://www.sonicwall.com/legal/privacy
+  - type: TermsOfService
+    url: https://www.sonicwall.com/legal/sonicwall-end-user-product-agreement
+  - type: TrustCenter
+    url: https://www.sonicwall.com/legal
+  - type: Twitter
+    url: https://twitter.com/sonicwall
+  - type: LinkedIn
+    url: https://www.linkedin.com/company/sonicwall
+  - type: YouTube
+    url: https://www.youtube.com/user/sonicwallinc
+  - type: GitHubOrganization
+    url: https://github.com/sonicwall
+  - type: SDK
+    name: Capture API Python Client
+    url: https://github.com/sonicwall/sonicwall-capture-api-python
+  - type: SDK
+    name: Capture API Node.js Client
+    url: https://github.com/sonicwall/sonicwall-capture-api-node
+  - type: SDK
+    name: Capture API PHP Client
+    url: https://github.com/sonicwall/sonicwall-capture-api-php
+  - type: Tool
+    name: SonicOS Automation Scripts
+    url: https://github.com/sonicwall/sonicos-automation
+  - type: Tool
+    name: Capture Client RMM Integrations
+    url: https://github.com/sonicwall/sonicwall-captureclient-rmm
+  - type: InfrastructureAsCode
+    name: NSv AWS CloudFormation Templates
+    url: https://github.com/sonicwall/sonicwall-nsv-aws-cf-templates
+  - type: InfrastructureAsCode
+    name: NSv Azure Resource Manager Templates
+    url: https://github.com/sonicwall/sonicwall-nsv-azure-templates
+  - type: Partners
+    url: https://www.sonicwall.com/partners
+  - type: Training
+    name: SonicWall University
+    url: https://www.sonicwall.com/partners/sonicwall-university
+maintainers:
+  - FN: Kin Lane
+    email: kin@apievangelist.com
