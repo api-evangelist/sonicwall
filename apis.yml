@@ -83,7 +83,7 @@ common:
     url: https://www.sonicwall.com/support
   - type: Community
     url: https://community.sonicwall.com/
-  - type: SignUp
+  - type: Signup
     name: MySonicWall Account
     url: https://www.mysonicwall.com/
   - type: StatusPage
@@ -110,19 +110,19 @@ common:
     url: https://www.youtube.com/user/sonicwallinc
   - type: GitHubOrganization
     url: https://github.com/sonicwall
-  - type: SDK
+  - type: SDKs
     name: Capture API Python Client
     url: https://github.com/sonicwall/sonicwall-capture-api-python
-  - type: SDK
+  - type: SDKs
     name: Capture API Node.js Client
     url: https://github.com/sonicwall/sonicwall-capture-api-node
-  - type: SDK
+  - type: SDKs
     name: Capture API PHP Client
     url: https://github.com/sonicwall/sonicwall-capture-api-php
-  - type: Tool
+  - type: Tools
     name: SonicOS Automation Scripts
     url: https://github.com/sonicwall/sonicos-automation
-  - type: Tool
+  - type: Tools
     name: Capture Client RMM Integrations
     url: https://github.com/sonicwall/sonicwall-captureclient-rmm
   - type: InfrastructureAsCode
