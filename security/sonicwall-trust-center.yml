@@ -1,0 +1,13 @@
+generated: '2026-07-11'
+method: searched
+probe: true
+source: https://trust.sonicwall.com/
+url: https://trust.sonicwall.com/
+certifications:
+- SOC 2
+- FIPS 140
+evidence:
+- source: https://trust.sonicwall.com/
+  keywords:
+  - soc 2
+  - trust center
