@@ -67,6 +67,26 @@ tags:
   - Sandbox
   - Capture ATP
   - SonicOS
+  - Small Business
+tags_raw:
+  - Cybersecurity
+  - Network Security
+  - Firewall
+  - Next-Generation Firewall
+  - Intrusion Prevention
+  - VPN
+  - SD-WAN
+  - SASE
+  - Cloud Secure Edge
+  - Zero Trust
+  - Endpoint Security
+  - Email Security
+  - Cloud Email Security
+  - Managed Detection and Response
+  - MSSP
+  - Sandbox
+  - Capture ATP
+  - SonicOS
   - SMB
 url: https://raw.githubusercontent.com/api-evangelist/sonicwall/refs/heads/main/apis.yml
 created: '2026-05-25'
