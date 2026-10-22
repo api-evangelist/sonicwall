@@ -12,6 +12,9 @@ checked:
 - https://www.threadgroup.org/What-is-Thread/Certified-Products
 - https://www.usb.org/products
 - https://www.wi-fi.org/product-finder
+- https://api.first.org/data/v1/teams
+- https://raw.githubusercontent.com/CVEProject/cve-website/dev/src/assets/data/CNAsList.json
+- https://www.cisa.gov/sites/default/files/feeds/known_exploited_vulnerabilities.json
 source:
 - microsoft-sentinel/integrations/microsoft-sentinel-integration-edges.yml
 - splunk/integrations/splunk-integration-edges.yml
@@ -260,4 +263,70 @@ edges:
     identity_note: register gave only the name; exact normalised match to the repo's apis.yml name, one repo, Wikidata
       P856 not contradicting (Kin 2026-10-20 decision 2)
   detected_by: sweep-wireless-connectivity-certification.py
+  first_seen: '2026-10-22'
+- partner_name: CVE Program (CVE Numbering Authorities)
+  partner: null
+  partner_match: register
+  type: register
+  channel: standard-directory
+  relationship: standard-participant
+  direction: partner-built
+  evidence: https://www.cve.org/PartnerInformation/ListofPartners/partner/sonicwall
+  category: Vulnerability disclosure (CVE Numbering Authority)
+  contract_reference:
+    register: CVE Program CNA list (github.com/CVEProject/cve-website CNAsList.json @ 239d3d9b68e0)
+    standard: CVE Program CNA Operational Rules (CVE Numbering Authority)
+    spec_file: null
+    role: cve-numbering-authority
+    registered_name: SonicWall, Inc.
+    matched_domain: sonicwall.com
+    matched_by: domain+name-among-holders
+    cna_id: CNA-2018-0004
+    cna_short_name: sonicwall
+    cna_types:
+    - Vendor
+    cna_roles:
+    - CNA
+    scope: SonicWall issues only.
+    top_level_root: MITRE Corporation
+    root: n/a
+    security_advisories:
+    - https://psirt.global.sonicwall.com/vuln-list
+    disclosure_policy:
+    - https://psirt.global.sonicwall.com/vuln-policy
+    country: USA
+    signal_note: listing as a CVE Numbering Authority = participation (a public commitment to assign CVE IDs and
+      publish advisories for its scope); never a count of CVEs
+    detected_by: sweep-vulnerability-disclosure-cna.py
+    detected: '2026-10-22'
+  detected_by: sweep-vulnerability-disclosure-cna.py
+  first_seen: '2026-10-22'
+- partner_name: FIRST (Forum of Incident Response and Security Teams)
+  partner: null
+  partner_match: register
+  type: register
+  channel: standard-directory
+  relationship: standard-participant
+  direction: partner-built
+  evidence: https://www.first.org/members/teams/sw_psirt
+  category: Incident response / PSIRT (FIRST member team)
+  contract_reference:
+    register: FIRST member teams (api.first.org/data/v1/teams, public JSON API)
+    standard: FIRST (Forum of Incident Response and Security Teams) membership
+    spec_file: null
+    role: first-member-team
+    registered_name: SonicWall
+    matched_domain: sonicwall.com
+    matched_by: domain+name-among-holders
+    teams:
+    - id: sw_psirt
+      team: SW PSIRT
+      team_type: PSIRT
+      member_since: April 23, 2018
+      country: US
+    signal_note: FIRST full membership of an incident-response / product-security team = participation; team_type
+      names CSIRT / PSIRT / SOC; never a count
+    detected_by: sweep-vulnerability-disclosure-cna.py
+    detected: '2026-10-22'
+  detected_by: sweep-vulnerability-disclosure-cna.py
   first_seen: '2026-10-22'
